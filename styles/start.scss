@@ -1,0 +1,38 @@
+.start_photo{
+    height: 100vh;
+    width: 100%;
+}
+
+.description{
+    height: 25vh;
+    width: 100%;
+    background-color: #823e80d9;
+}
+.white_text{
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    font-size: 17px;
+}
+.height_reset{
+    height: unset;
+}
+.start_content{
+    padding-top: 10vh;
+
+
+}
+.start_option{
+    height: 385px;
+    position: relative;
+}
+.start_option:hover .photo_hover{
+
+
+opacity: 0.5;
+transition: .5s ease;
+}
+.photo_hover{
+    background-color: #008CBA;
+
+}

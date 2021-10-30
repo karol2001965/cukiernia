@@ -1,0 +1,74 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+// @mixin font-bald-roboto{
+//     font-family: 'Roboto', sans-serif;
+// }
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+:root {
+    // --font-bald-roboto:  'Roboto', sans-serif;
+
+
+    --font-bald-roboto: 'Caveat', cursive;
+
+    --gold-color: goldenrod;
+
+  }
+.container_all{
+    // width: 100%;
+    // /* background-color: dodgerblue; */
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // height: unset;
+    padding-top: 50px;
+}
+.container_general{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    /* background-color: forestgreen; */
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    width: 100%;
+    height: 200px;
+    /* background-color: indigo; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.title h2 {
+    color: goldenrod;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.stripe{
+    width: 35%;
+    background-color: goldenrod;
+    height: 3px;
+}
+@media (max-width:728px){
+    .stripe{
+    width: 20%;
+    }
+    .title{
+        font-size:1rem ;
+        height: 100px;
+        margin-top: 60px;
+    }
+
+}
+
